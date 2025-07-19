@@ -5,22 +5,22 @@ export default function WhyHabitus() {
         {
             title: 'Trust',
             description: 'Built on community and relationships with local kirana stores you already trust.',
-            image: '/icons/trust.svg',
+            image: '/icons/trust.gif',
         },
         {
             title: 'Fast & Reliable',
             description: 'We ensure groceries arrive on time, every time—whether urgent or scheduled.',
-            image: '/icons/fast.svg',
+            image: '/icons/fast.gif',
         },
         {
             title: 'Easy Convenience',
             description: 'Send handwritten lists on WhatsApp. No app needed. It’s as simple as texting a friend.',
-            image: '/icons/easy.svg',
+            image: '/icons/easy.gif',
         },
         {
             title: 'Discounts',
             description: 'Enjoy special prices and savings without compromising on quality or speed.',
-            image: '/icons/discount.svg',
+            image: '/icons/discount.gif',
         },
     ];
 
