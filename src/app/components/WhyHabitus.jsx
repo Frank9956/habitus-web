@@ -40,13 +40,13 @@ export default function WhyHabitus() {
             </h2>
 
             {/* Cards */}
-            <div className="relative z-10 w-full sm:grid sm:grid-cols-2 gap-6 max-w-4xl my-15 mx-auto sm:overflow-visible overflow-x-auto flex sm:flex-none px-2 no-scrollbar">
+            <div className="relative z-10 w-full sm:grid sm:grid-cols-2 gap-6 max-w-4xl my-15 pl-6 mx-auto sm:overflow-visible overflow-x-auto flex sm:flex-none px-2 no-scrollbar">
                 {features.map((item, index) => (
                     <div
                         key={index}
                         className="bg-white/30 hover:bg-white/50 backdrop-blur-md border border-green-900/20 rounded-2xl px-6 py-8 text-center transition shadow-lg sm:max-w-[100%] max-w-[60%] sm:min-w-0 mr-4 sm:mr-0 flex-shrink-0 no-scrollbar">
                         <div className="flex justify-center mb-4">
-                            <Image src={item.image} alt={item.title} width={60} height={60} />
+                            <Image src={item.image} alt={item.title} width={60} height={60} unoptimized  />
                         </div>
                         <h3 className="text-2xl text-[#1AA248] font-bold mb-2">{item.title}</h3>
                         <p className="text-sm text-black/80">{item.description}</p>
