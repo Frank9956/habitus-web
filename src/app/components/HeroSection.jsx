@@ -28,6 +28,15 @@ export default function HeroSection() {
         >
           Request a Call
         </a>
+        <a
+          href="https://drive.google.com/file/d/14eTxW1rX4TKxQeo3pV87XgWdFXFeflSC/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-8 py-4 text-lg font-semibold text-white rounded-xl shadow-md 
+    bg-green-600/50 border border-white/30 backdrop-blur-md hover:bg-green-600 transition"
+        >
+          Download Now
+        </a>
       </div>
     </div>
   )
