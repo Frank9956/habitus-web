@@ -14,8 +14,8 @@ export default function HeroSection() {
           href="https://wa.me/919266950492?text=Hello%2C%20I%20want%20to%20place%20an%20order."
           target="_blank"
           rel="noopener noreferrer"
-          className="px-8 py-4 text-lg font-semibold text-white rounded-xl shadow-md 
-    bg-green-600/50 border border-white/30 backdrop-blur-md hover:bg-green-600 transition"
+          className="min-w-[220px] text-center px-8 py-4 text-lg font-semibold text-white rounded-xl shadow-md 
+      bg-green-600/50 border border-white/30 backdrop-blur-md hover:bg-green-600 transition"
         >
           Send Your List Now
         </a>
@@ -24,20 +24,23 @@ export default function HeroSection() {
           href="https://wa.me/919266950492?text=Hello%2C%20please%20call%20me%20regarding%20my%20grocery%20order."
           target="_blank"
           rel="noopener noreferrer"
-          className="px-8 py-4 text-lg bg-white/20 border border-white/30 hover:bg-white/30 text-white font-semibold rounded-xl transition shadow-md backdrop-blur-md"
+          className="min-w-[220px] text-center px-8 py-4 text-lg bg-white/20 border border-white/30 
+      hover:bg-white/30 text-white font-semibold rounded-xl transition shadow-md backdrop-blur-md"
         >
           Request a Call
         </a>
+
         <a
           href="https://drive.google.com/file/d/14eTxW1rX4TKxQeo3pV87XgWdFXFeflSC/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-8 py-4 text-lg font-semibold text-white rounded-xl shadow-md 
-    bg-green-600/50 border border-white/30 backdrop-blur-md hover:bg-green-600 transition"
+          className="min-w-[220px] text-center px-8 py-4 text-lg font-semibold text-white rounded-xl shadow-md 
+      bg-green-600/50 border border-white/30 backdrop-blur-md hover:bg-green-600 transition"
         >
           Download Now
         </a>
       </div>
+
     </div>
   )
 }
