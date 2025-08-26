@@ -12,10 +12,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Haabit Us",
+  title: "HabitUs",
   description: "Your Own Grocery Buddy",
   icons: {
-    icon: '/favicon.ico',
+    icon: '/icons/logo.png',
   },
 };
 
